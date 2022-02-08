@@ -36,9 +36,9 @@ def app_specific_action(webdriver, datasets):
     def measure():
         @print_timing("selenium_app_custom_action:view_issue")
         def sub_measure():
-            page.go_to_url(f"{JIRA_SETTINGS.server_url}/browse/{issue_key}")
+            page.go_to_url(f"{JIRA_SETTINGS.server_url}/browse/{issue_key}") # Go to issue page
             page.wait_until_visible((By.ID, "summary-val"))  # Wait for summary field visible
-            page.wait_until_visible((By.ID, "ID_OF_YOUR_APP_SPECIFIC_UI_ELEMENT"))  # Wait for you app-specific UI element by ID selector
+            page.wait_until_visible((By.ID, "customfieldmodule"))  # Wait for ws custom fields visible
+            page.wait_until_visible((By.ID, "description-val")) # Wait for description field visible
         sub_measure()
     measure()
-
