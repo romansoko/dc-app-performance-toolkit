@@ -1,0 +1,45 @@
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Action locust_add_comment:open_comment                                                 1     0(0.00%)  |    1699    1699    1699    1699  |    0.00    0.00
+ Action locust_add_comment:save_comment                                                 1     0(0.00%)  |    1755    1755    1755    1755  |    0.00    0.00
+ Action locust_app_specific_action                                                     33     0(0.00%)  |    7258    5370    9603    7000  |    0.11    0.00
+ Action locust_browse_boards                                                            2     0(0.00%)  |     865     857     873     860  |    0.01    0.00
+ Action locust_browse_projects                                                          9     0(0.00%)  |     779     685    1030     720  |    0.03    0.00
+ Action locust_create_issue:fill_and_submit_issue_form                                  6     0(0.00%)  |     470     447     515     460  |    0.02    0.00
+ Action locust_create_issue:open_quick_create                                           6     0(0.00%)  |     553     516     577     560  |    0.02    0.00
+ Action locust_edit_issue:open_editor                                                  12     0(0.00%)  |    1104    1053    1227    1100  |    0.04    0.00
+ Action locust_edit_issue:save_edit                                                    12     0(0.00%)  |    1667    1567    1783    1600  |    0.04    0.00
+ Action locust_login_and_view_dashboard                                                 2     0(0.00%)  |    3074    2819    3330    2819  |    0.01    0.00
+ Action locust_search_jql                                                              15     0(0.00%)  |    2723    2505    3254    2600  |    0.05    0.00
+ Action locust_view_backlog                                                            16     0(0.00%)  |    2475    2257    2940    2400  |    0.05    0.00
+ Action locust_view_dashboard                                                          16     0(0.00%)  |    1438    1343    1586    1400  |    0.05    0.00
+ Action locust_view_issue                                                              73     0(0.00%)  |    1734    1573    2377    1700  |    0.24    0.00
+ Action locust_view_kanban_board                                                        8     0(0.00%)  |    1591    1508    2030    1508  |    0.03    0.00
+ Action locust_view_project_summary                                                     9     0(0.00%)  |    1398    1351    1449    1400  |    0.03    0.00
+ Action locust_view_scrum_board                                                        19     0(0.00%)  |    2080    1847    2774    2000  |    0.06    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           240     0(0.00%)  |    2467     447    9603    1700  |    0.78    0.00
+
+Response time percentiles (approximated)
+ Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|---------|------|------|------|------|------|------|------|------|------|------|------|
+ Action   locust_add_comment:open_comment                                                      1700   1700   1700   1700   1700   1700   1700   1700   1700   1700   1700      1
+ Action   locust_add_comment:save_comment                                                      1800   1800   1800   1800   1800   1800   1800   1800   1800   1800   1800      1
+ Action   locust_app_specific_action                                                           7000   8000   8200   8400   9000   9400   9600   9600   9600   9600   9600     33
+ Action   locust_browse_boards                                                                  870    870    870    870    870    870    870    870    870    870    870      2
+ Action   locust_browse_projects                                                                720    730    830    910   1000   1000   1000   1000   1000   1000   1000      9
+ Action   locust_create_issue:fill_and_submit_issue_form                                        470    470    480    480    520    520    520    520    520    520    520      6
+ Action   locust_create_issue:open_quick_create                                                 560    560    580    580    580    580    580    580    580    580    580      6
+ Action   locust_edit_issue:open_editor                                                        1100   1100   1100   1100   1200   1200   1200   1200   1200   1200   1200     12
+ Action   locust_edit_issue:save_edit                                                          1600   1700   1800   1800   1800   1800   1800   1800   1800   1800   1800     12
+ Action   locust_login_and_view_dashboard                                                      3300   3300   3300   3300   3300   3300   3300   3300   3300   3300   3300      2
+ Action   locust_search_jql                                                                    2600   2600   2700   3200   3200   3300   3300   3300   3300   3300   3300     15
+ Action   locust_view_backlog                                                                  2400   2500   2600   2600   2800   2900   2900   2900   2900   2900   2900     16
+ Action   locust_view_dashboard                                                                1400   1500   1500   1500   1600   1600   1600   1600   1600   1600   1600     16
+ Action   locust_view_issue                                                                    1700   1700   1700   1900   2000   2200   2300   2400   2400   2400   2400     73
+ Action   locust_view_kanban_board                                                             1500   1500   1600   1600   2000   2000   2000   2000   2000   2000   2000      8
+ Action   locust_view_project_summary                                                          1400   1400   1400   1400   1400   1400   1400   1400   1400   1400   1400      9
+ Action   locust_view_scrum_board                                                              2000   2000   2200   2500   2600   2800   2800   2800   2800   2800   2800     19
+--------|--------------------------------------------------------------------------------|---------|------|------|------|------|------|------|------|------|------|------|------|
+ None     Aggregated                                                                           1700   2000   2500   2600   6300   8000   8600   9100   9600   9600   9600    240
+

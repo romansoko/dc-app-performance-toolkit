@@ -1,0 +1,121 @@
+---
+execution:
+- concurrency: ${concurrency}
+  executor: ${load_executor}
+  hold-for: ${test_duration}
+  ramp-up: ${ramp-up}
+  scenario: ${load_executor}
+- executor: selenium
+  hold-for: ${test_duration}
+  runner: pytest
+  scenario: selenium
+modules:
+  consolidator:
+    percentiles: []
+    rtimes-len: 0
+  jmeter:
+    detect-plugins: true
+    memory-xmx: 8G
+    plugins:
+    - bzm-parallel=0.4
+    - bzm-random-csv=0.6
+    - jpgc-casutg=2.5
+    - jpgc-dummy=0.2
+    - jpgc-ffw=2.0
+    - jpgc-fifo=0.2
+    - jpgc-functions=2.1
+    - jpgc-json=2.6
+    - jpgc-perfmon=2.1
+    - jpgc-prmctl=0.4
+    - jpgc-tst=2.4
+    - jpgc-wsc=0.3
+    - tilln-sshmon=1.0
+    - jpgc-synthesis=2.2
+    system-properties:
+      httpsampler.ignore_failed_embedded_resources: 'true'
+      java.rmi.server.hostname: localhost
+      server.rmi.ssl.disable: true
+    version: ${JMETER_VERSION}
+  selenium:
+    chromedriver:
+      version: 97.0.4692.71
+reporting:
+- data-source: sample-labels
+  module: junit-xml
+scenarios:
+  jmeter:
+    properties:
+      application_hostname: ${application_hostname}
+      application_port: ${application_port}
+      application_postfix: ${application_postfix}
+      application_protocol: ${application_protocol}
+      perc_add_comment: ${add_comment}
+      perc_browse_boards: ${browse_boards}
+      perc_browse_projects: ${browse_projects}
+      perc_create_issue: ${create_issue}
+      perc_edit_issue: ${edit_issue}
+      perc_search_jql: ${search_jql}
+      perc_standalone_extension: ${standalone_extension}
+      perc_view_backlog: ${view_backlog}
+      perc_view_dashboard: ${view_dashboard}
+      perc_view_issue: ${view_issue}
+      perc_view_kanban_board: ${view_kanban_board}
+      perc_view_project_summary: ${view_project_summary}
+      perc_view_scrum_board: ${view_scrum_board}
+      total_actions_per_hr: ${total_actions_per_hour}
+    script: jmeter/jira.jmx
+  locust:
+    script: locustio/jira/locustfile.py
+  selenium:
+    script: selenium_ui/jira_ui.py
+services:
+- module: shellexec
+  post-process:
+  - python util/analytics/analytics.py jira
+  - python util/post_run/cleanup_results_dir.py
+  prepare:
+  - python util/pre_run/environment_checker.py
+  - python util/pre_run/check_for_updates.py
+  - python util/data_preparation/jira_prepare_data.py
+  shutdown:
+  - python util/post_run/jmeter_post_check.py
+  - python util/jtl_convertor/jtls-to-csv.py kpi.jtl selenium.jtl
+- module: pip-install
+  packages:
+  - selenium==3.141.0
+settings:
+  aggregator: consolidator
+  artifacts-dir: results/jira/%Y-%m-%d_%H-%M-%S
+  env:
+    JMETER_VERSION: 5.4.2
+    LANGUAGE: en_US.utf8
+    WEBDRIVER_VISIBLE: false
+    add_comment: 2
+    admin_login: devops
+    admin_password: '********'
+    allow_analytics: true
+    application_hostname: jira-dev.whitesourcedev.com
+    application_port: 443
+    application_postfix: null
+    application_protocol: https
+    browse_boards: 1
+    browse_projects: 9
+    concurrency: 2
+    create_issue: 4
+    custom_dataset_query: summary ~ 'Whitesource*'
+    edit_issue: 5
+    load_executor: locust
+    ramp-up: 3s
+    search_jql: 11
+    secure: true
+    standalone_extension: 15
+    test_duration: 5m
+    total_actions_per_hour: 5450
+    view_backlog: 6
+    view_dashboard: 10
+    view_issue: 34
+    view_kanban_board: 7
+    view_project_summary: 3
+    view_scrum_board: 8
+  verbose: false
+
