@@ -1,0 +1,278 @@
+[2022-02-08 14:05:59,766] Roman-LenovoT14/INFO/locust.main: Run time limit set to 303 seconds
+[2022-02-08 14:05:59,767] Roman-LenovoT14/INFO/locust.main: Starting Locust 2.6.1
+[2022-02-08 14:05:59,768] Roman-LenovoT14/INFO/locust.runners: Ramping to 2 users at a rate of 0.67 per second
+[2022-02-08 14:06:01,340] Roman-LenovoT14/INFO/locust.runners: All users spawned: {"JiraUser": 2} (2 total users)
+[2022-02-08 14:06:03.100] [INFO] Roman-LenovoT14/locust : locust_login_and_view_dashboard is finished successfully
+[2022-02-08 14:06:04.160] [INFO] Roman-LenovoT14/locust : locust_login_and_view_dashboard is finished successfully
+[2022-02-08 14:06:05.112] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:05.513] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:06:05.844] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:06:06.632] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:06:09.323] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:06:10.989] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:11.728] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:06:12.597] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:13.261] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:06:14.464] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:06:14.605] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:06:15.972] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:06:16.969] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:06:17.421] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:06:18.997] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:06:19.516] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:06:20.388] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:06:20.646] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:06:21.136] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:22.711] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:24.317] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:25.760] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:06:27.530] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:06:27.791] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:06:28.477] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:06:29.183] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:30.485] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:06:30.762] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:31.887] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:06:32.343] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:34.230] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:06:34.473] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:06:34.716] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:06:35.638] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:06:35.943] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:06:40.084] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:06:41.268] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:06:41.802] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:42.699] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:06:43.432] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:06:43.443] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:45.651] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:46.796] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:06:48.008] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:06:49.427] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:06:50.009] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:06:51.760] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:06:52.473] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:06:53.457] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:54.463] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:06:54.488] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:06:54.713] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:06:57.356] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:06:58.980] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:00.083] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:00.412] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:07:02.545] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:02.672] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:02.804] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:03.905] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:07:05.673] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:07:06.757] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:07:08.330] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:08.633] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:07:09.354] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:07:10.520] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:10.814] [INFO] Roman-LenovoT14/locust : locust_browse_boards is finished successfully
+[2022-02-08 14:07:12.126] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:13.580] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:07:14.741] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:07:15.537] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:16.360] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:17.174] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:17.443] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:17.486] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:07:19.381] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:07:19.647] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:24.050] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:25.994] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:26.610] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:07:27.727] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:28.233] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:29.350] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:29.873] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:29.912] [INFO] Roman-LenovoT14/locust : locust_create_issue:open_quick_create is finished successfully
+[2022-02-08 14:07:31.129] [INFO] Roman-LenovoT14/locust : locust_create_issue:fill_and_submit_issue_form is finished successfully
+[2022-02-08 14:07:32.814] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:07:33.129] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:34.586] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:36.257] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:37.465] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:07:39.073] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:39.377] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:07:40.806] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:41.990] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:07:42.255] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:42.686] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:43.749] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:07:45.611] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:07:47.568] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:49.654] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:49.998] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:50.308] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:51.589] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:53.024] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:07:55.019] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:07:56.647] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:07:56.906] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:07:58.029] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:07:59.380] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:08:01.049] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:02.122] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:08:04.151] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:08:04.180] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:08:04.733] [INFO] Roman-LenovoT14/locust : locust_create_issue:open_quick_create is finished successfully
+[2022-02-08 14:08:05.981] [INFO] Roman-LenovoT14/locust : locust_create_issue:fill_and_submit_issue_form is finished successfully
+[2022-02-08 14:08:06.040] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:07.463] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:08:08.159] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:08:08.496] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:09.923] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:08:10.440] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:10.637] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:08:12.364] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:08:12.874] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:14.069] [INFO] Roman-LenovoT14/locust : locust_add_comment:open_comment is finished successfully
+[2022-02-08 14:08:15.483] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:08:15.826] [INFO] Roman-LenovoT14/locust : locust_add_comment:save_comment is finished successfully
+[2022-02-08 14:08:17.415] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:08:17.781] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:08:17.999] [INFO] Roman-LenovoT14/locust : locust_create_issue:open_quick_create is finished successfully
+[2022-02-08 14:08:18.921] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:08:19.189] [INFO] Roman-LenovoT14/locust : locust_create_issue:fill_and_submit_issue_form is finished successfully
+[2022-02-08 14:08:20.740] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:08:22.503] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:08:22.576] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:22.758] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:08:24.034] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:08:25.705] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:27.349] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:28.854] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:08:29.003] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:30.651] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:31.226] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:08:31.504] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:08:32.888] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:36.143] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:08:37.823] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:38.070] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:08:38.244] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:08:39.315] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:08:41.351] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:08:41.631] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:08:44.449] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:08:44.701] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:08:48.243] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:08:49.154] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:08:51.174] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:51.423] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:08:52.919] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:08:55.106] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:56.848] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:08:58.410] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:08:59.523] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:09:00.263] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:00.525] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:01.391] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:09:04.160] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:09:04.416] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:09.867] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:11.149] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:11.808] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:11.984] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:09:13.397] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:15.021] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:15.052] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:09:16.648] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:17.430] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:09:17.695] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:18.496] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:09:20.096] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:21.679] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:23.370] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:24.956] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:25.219] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:26.039] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:27.101] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:09:28.969] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:09:30.509] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:09:32.355] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:32.908] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:34.025] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:34.418] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:09:35.415] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:09:35.681] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:36.006] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:37.383] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:09:37.951] [INFO] Roman-LenovoT14/locust : locust_create_issue:open_quick_create is finished successfully
+[2022-02-08 14:09:39.165] [INFO] Roman-LenovoT14/locust : locust_create_issue:fill_and_submit_issue_form is finished successfully
+[2022-02-08 14:09:41.425] [INFO] Roman-LenovoT14/locust : locust_view_project_summary is finished successfully
+[2022-02-08 14:09:44.369] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:44.623] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:09:44.867] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:46.025] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:47.979] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:48.498] [INFO] Roman-LenovoT14/locust : locust_create_issue:open_quick_create is finished successfully
+[2022-02-08 14:09:49.786] [INFO] Roman-LenovoT14/locust : locust_create_issue:fill_and_submit_issue_form is finished successfully
+[2022-02-08 14:09:52.371] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:53.061] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:09:54.416] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:09:55.907] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:09:56.748] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:09:57.048] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:09:58.562] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:10:00.126] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:10:00.378] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:03.357] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:03.749] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:08.287] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:10.902] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:10:12.516] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:12.787] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:14.416] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:14.739] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:15.441] [INFO] Roman-LenovoT14/locust : locust_browse_projects is finished successfully
+[2022-02-08 14:10:15.940] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:10:16.997] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:10:17.954] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:10:18.894] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:10:19.619] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:20.244] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:10:21.287] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:21.832] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:22.647] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:10:23.726] [INFO] Roman-LenovoT14/locust : locust_view_scrum_board is finished successfully
+[2022-02-08 14:10:25.026] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:10:25.427] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:26.301] [INFO] Roman-LenovoT14/locust : locust_browse_boards is finished successfully
+[2022-02-08 14:10:27.383] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:10:28.343] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:28.478] [INFO] Roman-LenovoT14/locust : locust_edit_issue:open_editor is finished successfully
+[2022-02-08 14:10:28.603] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:30.276] [INFO] Roman-LenovoT14/locust : locust_edit_issue:save_edit is finished successfully
+[2022-02-08 14:10:31.895] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:33.645] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:35.264] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:35.765] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:37.175] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:37.276] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:10:38.750] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:38.799] [INFO] Roman-LenovoT14/locust : locust_view_kanban_board is finished successfully
+[2022-02-08 14:10:39.048] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:41.007] [INFO] Roman-LenovoT14/locust : locust_view_backlog is finished successfully
+[2022-02-08 14:10:43.593] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:10:44.922] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:45.074] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:10:46.510] [INFO] Roman-LenovoT14/locust : locust_view_dashboard is finished successfully
+[2022-02-08 14:10:46.792] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:46.870] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:47.117] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:52.833] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:54.435] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:10:54.849] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:10:55.378] [INFO] Roman-LenovoT14/locust : locust_create_issue:open_quick_create is finished successfully
+[2022-02-08 14:10:56.689] [INFO] Roman-LenovoT14/locust : locust_create_issue:fill_and_submit_issue_form is finished successfully
+[2022-02-08 14:10:57.005] [INFO] Roman-LenovoT14/locust : locust_search_jql is finished successfully
+[2022-02-08 14:10:57.282] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:10:59.882] [INFO] Roman-LenovoT14/locust : locust_view_issue is finished successfully
+[2022-02-08 14:11:00.214] [INFO] Roman-LenovoT14/locust : Executing ws sync
+[2022-02-08 14:11:00,797] Roman-LenovoT14/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-02-08 14:11:04.807] [INFO] Roman-LenovoT14/locust : locust_app_specific_action is finished successfully
+[2022-02-08 14:11:07,068] Roman-LenovoT14/INFO/locust.main: Shutting down (exit code 0)
